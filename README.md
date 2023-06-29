@@ -9,6 +9,7 @@ This is the smart contract that enables users to deposit ETH and receive 50% of 
 
 ## Features
 
+- used two contracts one MyToken which will mint and burn tokens and second Oracle contract which will perform the required activities
 - used oracle chainlink to fetch real eth price in USD
 - used aggregateV3Interface  to fetch the real ether price in used
 - with help of deposit function the user will be able to mint hte tokens according to the real eth price in usd 
@@ -27,7 +28,7 @@ This is the smart contract that enables users to deposit ETH and receive 50% of 
 
 ## Tech Stack 
 
- - Solidity language is used 
+ - Solidity language is used and contract deployed on sepolia testnet
  - address of sepolia testnet is used in aggregateV3Interface
  
 ## 🔗 Links
